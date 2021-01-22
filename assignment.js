@@ -1,10 +1,11 @@
+// https://github.com/ShohanShabbir/Javascript
 
 //kilometertoMeter Problem
 function kilometerToMeter(kilometer=0){
 
     if ( kilometer<= 0){
 
-        console.log("Your input is not right. It must be above than 0");
+        console.log("Your input is not right. It must be greater than 0");
 
     }
     else{
