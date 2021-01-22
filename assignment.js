@@ -1,5 +1,5 @@
 
-
+//kilometertoMeter Problem
 function kilometerToMeter(kilometer=0){
 
     if ( kilometer<= 0){
@@ -8,7 +8,7 @@ function kilometerToMeter(kilometer=0){
 
     }
     else{
-        var meter = kilometer*1000;
+        var meter = kilometer*1000; // 1km=1000 meter
         return meter;
     }
 }
@@ -16,6 +16,8 @@ var lengthInMeter = kilometerToMeter(2.5);
 console.log(lengthInMeter);
 
 
+
+//budgetCalculator Problem
 function budgetCalculator(watch=0, phone=0, laptop=0){
 
     if ( watch< 0){
@@ -47,7 +49,7 @@ var totalBudget = budgetCalculator(2,3,2);
 console.log(totalBudget);
 
 
-
+//hotelCost Problem
 function hotelCost(daysInHotel = 0) {
     if (daysInHotel <= 0){
        console.log("Number Of Days In Hotel Must Be Greater Than 0"); 
@@ -66,8 +68,10 @@ function hotelCost(daysInHotel = 0) {
 console.log(hotelCost(25));
 
 
-
+//megaFriend Problem
 function megaFriend(arr) {
+
+  
   var word = "";
   for (var i = 0; i < arr.length; i++) {
     if (word.length < arr[i].length) {
